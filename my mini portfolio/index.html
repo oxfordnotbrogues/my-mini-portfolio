@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css">
+    <title>Animated Profile Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+
+            <div class="heart" onclick="favorite()">
+                <i class='bx bxs-heart'></i>
+            </div>
+
+            <div class="profile-card-img" onclick="activeCard()">
+                <img src="/IMG_20220323_214141_913.jpg" alt="">
+            </div>
+
+            <div class="profile-card-info">
+                <div class="profile-card-name">Ifeoma Lilian Onyeabo</div>
+                <div class="profile-card-job-name">front-end Developer</div>
+                <div class="profile-card-location">
+                    <div class="profile-card-location-icon">
+                        <i class='bx bxs-edit-location'></i>
+                    </div>
+                    <div class="profile-card-location-name">
+                        Awka, Anambra, Nigeria.
+                    </div>
+                </div>
+                <div class="profile-card-buttons">
+                    <div class="profile-card-button">
+                        <span>Contact Me</span>
+                        <div class="social-icons">
+                            <i class='bx bxl-linkedin-square'></i>
+                            <i class='bx bxl-gmail'></i>
+                            <i class='bx bxl-instagram'></i>
+                            <i class='bx bxl-github'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
